@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import efty from './efty1.jpg';
 
 function App() {
     const [result, setResult] = useState("");
@@ -24,6 +25,10 @@ function App() {
 
   return (
     <div className="container">
+      <div className='efty-container'>
+        <img src={efty} alt="" />
+        <h3>EFTY</h3>
+      </div>
         <form>
             <input type="text" value={result} />
         </form>

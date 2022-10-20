@@ -20,6 +20,23 @@ body{
   background: #101116;
   border-radius: 10px;
 }
+.efty-container{
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+}
+.efty-container img{
+  width:30px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 30px;
+  margin-right: 5px;
+  border: 3px solid rgb(0, 255, 0);
+
+}
+.container h3{
+  color:rgb(0, 255, 0);
+}
 .keypad{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -51,12 +68,15 @@ button{
   margin: 5px;
   font-size: 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   background: #262834;
   color:#ffffff;
   font-weight: 500;
 }
 .heighlight{
-  background: #56cbdb;
+  background: 	rgb(0, 255, 0);
+}
+form{
+  margin-bottom: 5px;
 }
